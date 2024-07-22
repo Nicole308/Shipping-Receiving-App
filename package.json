@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/homepage.html"
+    "dev": "parcel src/homepage.html",
+    "build": "parcel build src/homepage.html src/shipping.html"
   },
   "author": "",
   "license": "ISC",

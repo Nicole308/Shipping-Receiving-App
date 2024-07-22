@@ -64,6 +64,7 @@ body {
 
 .track-quote {
   width: 50%;
+  padding: 2em;
 }
 
 .track-quote h1 {
@@ -119,14 +120,16 @@ body {
 
 .benefits-section {
   flex-flow: column wrap;
+  align-content: center;
   align-items: center;
   padding: 1em;
   display: flex;
 }
 
 .row {
-  flex-flow: row;
-  column-gap: 25px;
+  flex-flow: wrap;
+  justify-content: center;
+  gap: 5px 25px;
   padding-bottom: 25px;
   display: flex;
 }
@@ -141,8 +144,9 @@ body {
 .tagline {
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
-  margin-top: 20px;
+  height: 100%;
   font-family: Inria Sans, sans-serif;
   font-size: 2.6rem;
   font-weight: 700;
@@ -154,6 +158,7 @@ body {
 .delivery-quote {
   flex-direction: column;
   gap: 5px;
+  padding-left: 1em;
   display: flex;
 }
 
@@ -167,7 +172,7 @@ body {
   border: 3px solid #fff;
   border-radius: 10px;
   width: 30%;
-  padding: 10px;
+  padding: 10px 1em 10px 10px;
   font-family: Inria Sans, sans-serif;
   font-weight: 700;
 }
@@ -178,7 +183,7 @@ body {
   background-color: #000;
   border: solid;
   border-radius: 5px;
-  height: 40%;
+  height: 15%;
   margin-right: 20px;
   padding: 16px 30px;
   font-size: 20px;
