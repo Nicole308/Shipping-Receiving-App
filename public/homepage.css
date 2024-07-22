@@ -61,11 +61,12 @@ body {
     align-items: center;
     color: white; 
     background: rgba(0, 0, 0, 0.5); 
+
 }
 
 .track-quote {
     width: 50%;
-    /* padding: 1em; */
+    padding: 2em;
 }
 
 .track-quote h1 {
@@ -125,11 +126,15 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    align-content: center;
 }
 
 .row {
     display: flex;
-    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
     column-gap: 25px;
     padding-bottom: 25px;
 }
@@ -147,17 +152,19 @@ body {
     font-size: 2.6rem;
     font-family: "Inria Sans", sans-serif;
     font-weight: 700;
-    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    height: 100%;
+    align-items: center;
 }
 
 .delivery-quote {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding-left: 1em;
 }
 
 .delivery-quote h3 {
@@ -173,10 +180,11 @@ body {
     border-radius: 10px;
     width: 30%;
     border: 3px solid white;
+    padding-right: 1em;
 }
 
 .contact-button {
-    height: 40%;
+    height: 15%;
     background-color: black;
     color: white;
     font-size: 20px;
