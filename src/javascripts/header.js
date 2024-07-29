@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const userAddress = localStorage.getItem('userAddress');
 
     if(userAddress){
-        document.getElementById('address-value').textContent = userAddress;
-        document.getElementById('is-connected-value').textContent = "Connected";
+        document.getElementById('address-value').textContent = `${userAddress.slice(0, 6)}...${userAddress.slice(-4)}`;
+        // document.getElementById('is-connected-value').textContent = "Connected";
     } else {
         document.getElementById('is-connected-value').textContent = "Not Connected";
     }

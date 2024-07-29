@@ -92,16 +92,67 @@ body {
 }
 
 /* Add Cargo content */
+.addCargo-layout {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
 .addform {
     padding: 20px;
+}
+
+.addform-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .addform-input h5 {
     margin: 0;
 }
 
-.addform-input input {
+.addform-input input,
+.addform-input button {
     margin-bottom: 10px;
+    width: 80%;
+}
+
+.shippingform-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.shippingform-input input,
+.shippingform-input button {
+    width: 80%;
+}
+
+.bol-layout {
+    width: 100%;
+    background-color: cornsilk;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.bol-layout h5,
+.bol-layout h4 {
+    margin: 0;
+}
+
+.bol-layout ul {
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+}
+
+.bol-layout ul li {
+    font-size: 15px;
+}
+
+#more-bol-details {
+    display: none;
 }
 
 /* Update Location content */
@@ -114,5 +165,9 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.datatable-layout table tr td{
+    padding: 15px 20px 15px 20px;
 }
 

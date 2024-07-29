@@ -41,3 +41,17 @@ function openShipHistory(){
     shipHistoryDiv.classList.add('active');
     historyOptionDiv.classList.add('clicked');
 }
+
+function openAcceptCargo(){
+    const receiveCargoDiv = document.getElementById('receiveCargo-content');
+    const acceptOptionDiv = document.getElementById('acceptOption');
+    
+    let activeEl = document.getElementsByClassName('active');
+    let clickedEl = document.getElementsByClassName('clicked');
+    
+    activeEl[0].classList.remove('active');
+    clickedEl[0].classList.remove('clicked');
+
+    receiveCargoDiv.classList.add('active');
+    acceptOptionDiv.classList.add('clicked');
+}

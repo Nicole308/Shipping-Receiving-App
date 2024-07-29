@@ -86,16 +86,63 @@ body {
   display: block;
 }
 
+.addCargo-layout {
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+}
+
 .addform {
   padding: 20px;
+}
+
+.addform-input {
+  flex-direction: column;
+  width: 50%;
+  display: flex;
 }
 
 .addform-input h5 {
   margin: 0;
 }
 
-.addform-input input {
+.addform-input input, .addform-input button {
+  width: 80%;
   margin-bottom: 10px;
+}
+
+.shippingform-input {
+  flex-direction: column;
+  width: 50%;
+  display: flex;
+}
+
+.shippingform-input input, .shippingform-input button {
+  width: 80%;
+}
+
+.bol-layout {
+  background-color: #fff8dc;
+  border: 1px solid #000;
+  width: 100%;
+  padding: 10px;
+}
+
+.bol-layout h5, .bol-layout h4 {
+  margin: 0;
+}
+
+.bol-layout ul {
+  padding: 0;
+  list-style: none;
+}
+
+.bol-layout ul li {
+  font-size: 15px;
+}
+
+#more-bol-details {
+  display: none;
 }
 
 #updateLocation-content h5 {
@@ -106,5 +153,9 @@ body {
   flex-direction: row;
   align-items: center;
   display: flex;
+}
+
+.datatable-layout table tr td {
+  padding: 15px 20px;
 }
 /*# sourceMappingURL=shipping.d616203b.css.map */
